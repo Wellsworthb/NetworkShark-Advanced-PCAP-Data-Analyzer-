@@ -1,12 +1,22 @@
-# NetworkShark-Advanced-PCAP-Data-Analyzer-
-This tool is intended to automate and enhance network traffic analysis, making it easier to extract, filter, and visualize data from PCAP files.
+# NetworkShark: Advanced PCAP Data Analyzer
 
-README.md
+## Project Description
+The NetworkShark: Advanced PCAP Data Analyzer is a Python-based tool designed to automate the extraction and analysis of data from pcap files, which are extensively used for capturing network packet data. This tool simplifies the process of filtering and visualizing network traffic, making it invaluable for cybersecurity analysts, network administrators, and students engaged in network analysis and security studies.
 
-## Description
-NetworkShark is a Python tool designed to analyze PCAP files efficiently. It helps users to capture, filter, and analyze network traffic, providing insights into network performance and security issues.
+The software aims to improve efficiency in handling large volumes of network data and reduce human error in data analysis. By providing functionalities such as advanced data filtering and basic visualization, NetworkShark enables users to quickly identify and respond to potential network anomalies and security threats.
 
-### Features
+### Target Audience
+Cybersecurity Professionals: For those tasked with monitoring and analyzing network traffic to detect security threats.
+
+Network Administrators: To assist in managing and troubleshooting network operations by providing insights into traffic patterns.
+
+Academic Researchers and Students: Particularly useful for those in network security and forensic analysis courses, helping them learn about real-world data traffic analysis.
+
+IT Consultants: Professionals who require a tool to analyze network data efficiently for their consultancy in network setup and security assessments.
+
+This project enhances learning and professional development in network-related disciplines and contributes to more secure and efficient network management practices.
+
+#### Features
 - **Log Analysis**: Analyze log files for specific patterns and errors using regular expressions. Supports customizable encoding settings.
 - **File Integrity Check**: Calculate file hashes to verify the integrity of data, with support for multiple hashing algorithms including SHA256.
 - **PCAP Analysis**: Load and analyze PCAP files to extract network packets, with options to apply display filters.
@@ -14,7 +24,7 @@ NetworkShark is a Python tool designed to analyze PCAP files efficiently. It hel
 - **Error Handling**: Robust logging and error handling to provide clear diagnostics and operational status.
 
 
-#### Installation
+##### Installation
 To install NetworkShark, clone this repository and install the required Python packages:
 
 git clone https://github.com/Wellsworthb/NetworkShark-Advanced-PCAP-Data-Analyzer-.git
@@ -26,14 +36,14 @@ To run NetworkShark, navigate to the directory containing NetworkShark.py and ex
 
 python NetworkShark.py --file C:\Users\wells\OneDrive\Desktop\CYB333 Labs\PCAP.pcap
 
-###### Contributing
+####### Contributing
 Contributions to NetworkShark are welcome! Please fork the repository, make your changes, and submit a pull request.
 
-###### License
+######## License
 NetworkShark is released under the MIT License. See the LICENSE file for more details.
 
 ##### Contact
 For any queries or technical support, please contact Your wellsbethelmie@gmail.com.
 
-Acknowledgements
+######### Acknowledgements
 Thanks to everyone who has contributed to the development of NetworkShark.
