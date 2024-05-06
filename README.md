@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ###### Usage
 To run NetworkShark, navigate to the directory containing NetworkShark.py and execute the script:
 
-python NetworkShark.py --file C:\Users\wells\OneDrive\Desktop\CYB333 Labs\PCAP.pcap
+e.g python NetworkShark.py --file C:\Users\wells\OneDrive\Desktop\CYB333 Labs\PCAP.pcap
 
 ####### Contributing
 Contributions to NetworkShark are welcome! Please fork the repository, make your changes, and submit a pull request.
