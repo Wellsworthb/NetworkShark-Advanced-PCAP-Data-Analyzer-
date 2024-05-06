@@ -36,6 +36,19 @@ To run NetworkShark, navigate to the directory containing NetworkShark.py and ex
 
 e.g python NetworkShark.py --file C:\Users\wells\OneDrive\Desktop\CYB333 Labs\PCAP.pcap
 
+####### Usage Example
+Example code demonstrating how to use NetworkShark
+from NetworkShark import PCAPAnalyzer
+
+# Initialize PCAPAnalyzer
+analyzer = PCAPAnalyzer()
+# Load PCAP file
+analyzer.load_pcap("example.pcap")
+# Perform analysis
+results = analyzer.analyze()
+# Display results
+print(results)
+
 ####### Contributing
 Contributions to NetworkShark are welcome! Please fork the repository, make your changes, and submit a pull request.
 
